@@ -1,0 +1,45 @@
+DATAFILE                        #Genetic parameters: renumf90 and airemlf90
+pheno.txt
+TRAITS    #YOUR_TRAITS
+3
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+1
+EFFECT #CG
+4 cross alpha 
+EFFECT #PC1
+8 cov 
+EFFECT #PC2
+9 cov 
+EFFECT
+1 cross alpha
+RANDOM
+animal
+FILE
+YOUR_PED
+FILE_POS
+1 2 3 0 0
+SNP_FILE
+YOUR_GENO
+PED_DEPTH
+1 #0 = all pedigrees are loaded, even if the pedigree animals are not related to the animals geno and pheno, 1 = fake_ped
+(CO)VARIANCES
+1
+OPTION missing -999
+OPTION excludeCHR 0 30 31 32 33 34
+OPTION map_info YOUR_MAP
+OPTION saveGInverse
+OPTION saveA22Inverse
+OPTION snp_p_value
+OPTION Manhattan_plot_R
+OPTION AlphaBeta 0.99 0.01
+OPTION thrStopCorAG -1d0 
+OPTION tunedG 0
+OPTION use_yams
+OPTION solution mean
+OPTION sol se
+OPTION weightedG wei.txt
+OPTION minfreq 0.01

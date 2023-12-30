@@ -1,0 +1,32 @@
+DATAFILE                        #Genetic parameters: renumf90 and airemlf90
+pheno.txt
+TRAITS    #UFID_Corrected,YEAR,hcw,CG,Ranch,LOT,RanchLOT,PC1,PC2
+3
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+1
+EFFECT #CG
+4 cross alpha 
+EFFECT
+1 cross alpha
+RANDOM
+animal
+FILE
+Seminole.Nutri.SNP.PED.add
+FILE_POS
+1 2 3 0 0
+SNP_FILE
+Seminole.Nutri.SNP.geno.add
+PED_DEPTH
+1 #0 = all pedigrees are loaded, even if the pedigree animals are not related to the animals geno and pheno, 1 = fake_ped
+(CO)VARIANCES
+1
+OPTION excludeCHR 0 30 31 32 33 34
+OPTION sol se
+OPTION se_covar_function H2_1  G_2_2_1_1/(G_2_2_1_1+R_1_1) #Position of animal effect for trait 1, must count number of effects included in the model
+OPTION missing -999
+OPTION use_yams
+OPTION map_info Seminole.Nutri.SNP.map

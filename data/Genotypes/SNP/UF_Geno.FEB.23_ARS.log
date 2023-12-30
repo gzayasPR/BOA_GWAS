@@ -1,0 +1,33 @@
+PLINK v1.90b3.39 64-bit (5 Aug 2016)
+Options in effect:
+  --bfile mydata2
+  --cow
+  --make-bed
+  --out UF_Geno.FEB.23_ARS
+  --recode
+  --update-map ARS.UF.BP.Update.txt
+
+Hostname: login2.ufhpc
+Working directory: /blue/mateescu/gzayas97/UF_Geno.FEB.23/PLINK.Prep
+Start time: Thu Feb  9 14:16:35 2023
+
+Random number seed: 1675970195
+128398 MB RAM detected; reserving 64199 MB for main workspace.
+221115 variants loaded from .bim file.
+9801 cattle (0 males, 0 females, 9801 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to UF_Geno.FEB.23_ARS.nosex .
+--update-map: 221115 values updated.
+Warning: Base-pair positions are now unsorted!
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 9801 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.924738.
+221115 variants and 9801 cattle pass filters and QC.
+Note: No phenotypes present.
+--make-bed to UF_Geno.FEB.23_ARS.bed + UF_Geno.FEB.23_ARS.bim +
+UF_Geno.FEB.23_ARS.fam ... done.
+--recode ped to UF_Geno.FEB.23_ARS.ped + UF_Geno.FEB.23_ARS.map ... done.
+
+End time: Thu Feb  9 14:17:57 2023

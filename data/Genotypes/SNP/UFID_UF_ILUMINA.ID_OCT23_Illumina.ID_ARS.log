@@ -1,0 +1,35 @@
+PLINK v1.90b3.39 64-bit (5 Aug 2016)
+Options in effect:
+  --bfile mydata2
+  --cow
+  --make-bed
+  --out UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS
+  --recode
+  --update-map ARS.UF.BP.Update.txt
+
+Hostname: login9.ufhpc
+Working directory: /blue/mateescu/gzayas97/UF_ILUMINA.ID_OCT23/PLINK.Prep
+Start time: Fri Oct 13 21:23:53 2023
+
+Random number seed: 1697246633
+514740 MB RAM detected; reserving 257370 MB for main workspace.
+221115 variants loaded from .bim file.
+10272 cattle (0 males, 0 females, 10272 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS.nosex .
+--update-map: 221115 values updated.
+Warning: Base-pair positions are now unsorted!
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 10272 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.924342.
+221115 variants and 10272 cattle pass filters and QC.
+Note: No phenotypes present.
+--make-bed to UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS.bed +
+UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS.bim +
+UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS.fam ... done.
+--recode ped to UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS.ped +
+UFID_UF_ILUMINA.ID_OCT23_Illumina.ID_ARS.map ... done.
+
+End time: Fri Oct 13 21:24:26 2023

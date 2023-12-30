@@ -1,0 +1,31 @@
+PLINK v1.90b3s 64-bit (17 Jun 2015)
+Options in effect:
+  --cow
+  --file UF.Geno_Jan23.BO
+  --keep-allele-order
+  --make-bed
+  --out UF.Geno_Jan23.BO
+  --real-ref-alleles
+
+Hostname: c0709a-s4.ufhpc
+Working directory: /blue/mateescu/gzayas97/Gabe_Thesis/2.Pop.Structure.GBC/Analysis/results/Breed.of.Origin/Breed_of_Origin.files
+Start time: Sun Apr 30 13:56:33 2023
+
+Random number seed: 1682877393
+514520 MB RAM detected; reserving 257260 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (93751 variants, 9077 cattle).
+--file: UF.Geno_Jan23.BO-temporary.bed + UF.Geno_Jan23.BO-temporary.bim +
+UF.Geno_Jan23.BO-temporary.fam written.
+93751 variants loaded from .bim file.
+9077 cattle (0 males, 0 females, 9077 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to UF.Geno_Jan23.BO.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 9077 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+93751 variants and 9077 cattle pass filters and QC.
+Note: No phenotypes present.
+--make-bed to UF.Geno_Jan23.BO.bed + UF.Geno_Jan23.BO.bim +
+UF.Geno_Jan23.BO.fam ... done.
+
+End time: Sun Apr 30 13:56:46 2023

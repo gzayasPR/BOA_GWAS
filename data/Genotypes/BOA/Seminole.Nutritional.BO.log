@@ -1,0 +1,31 @@
+PLINK v2.00a5LM AVX2 Intel (7 Jul 2023)
+Options in effect:
+  --bfile UF.Geno_Jan23.BO
+  --chr 1-29
+  --cow
+  --keep /blue/mateescu/gzayas97/Gabe_Thesis/4.BO.GWAS.Heterosis/Analysis/data/IDs/Seminole.Steers.ID
+  --keep-allele-order
+  --make-bed
+  --out Seminole.Nutritional.BO
+
+Hostname: login7.ufhpc
+Working directory: /blue/mateescu/gzayas97/Gabe_Thesis/4.BO.GWAS.Heterosis/Analysis/data/Genotypes/BOA
+Start time: Sat Oct 28 20:50:38 2023
+
+Note: --keep-allele-order no longer has any effect.
+Random number seed: 1698540638
+514740 MiB RAM detected, ~376063 available; reserving 257370 MiB for main
+workspace.
+Using up to 64 threads (change this with --threads).
+9077 samples (0 females, 0 males, 9077 ambiguous; 9077 founders) loaded from
+UF.Geno_Jan23.BO.fam.
+93751 variants loaded from UF.Geno_Jan23.BO.bim.
+Note: No phenotype data present.
+--keep: 1041 samples remaining.
+1041 samples (0 females, 0 males, 1041 ambiguous; 1041 founders) remaining
+after main filters.
+Writing Seminole.Nutritional.BO.fam ... done.
+Writing Seminole.Nutritional.BO.bim ... done.
+Writing Seminole.Nutritional.BO.bed ... done.
+
+End time: Sat Oct 28 20:50:38 2023
